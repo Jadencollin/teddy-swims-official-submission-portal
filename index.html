@@ -1,0 +1,109 @@
+<!-- START PROFESSIONAL FORM SECTION -->
+<style>
+    /* Overall Container */
+    .pro-form-wrapper {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        background: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+        overflow: hidden;
+    }
+
+    /* Form Header Area (Optional Professional Touch) */
+    .pro-form-header {
+        background: #f8f9fa;
+        padding: 30px;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+    }
+    .pro-form-header h2 {
+        margin: 0;
+        color: #2c3e50;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    /* Iframe Styling */
+    .google-form-container {
+        position: relative;
+        width: 100%;
+        /* We set a slightly smaller height than your original to prevent empty space */
+        height: 5850px; 
+    }
+    
+    .google-form-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    /* Professional Terms & Conditions Footer */
+    .pro-form-footer {
+        background: #ffffff;
+        padding: 25px 40px;
+        border-top: 1px solid #eee;
+        font-size: 13px;
+        color: #7f8c8d;
+        line-height: 1.6;
+    }
+
+    .legal-terms {
+        margin-bottom: 15px;
+    }
+
+    .legal-terms a {
+        color: #3498db;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+        .pro-form-wrapper {
+            margin: 10px;
+            border-radius: 0;
+        }
+        .pro-form-footer {
+            padding: 20px;
+        }
+    }
+</style>
+
+<div class="pro-form-wrapper">
+    <!-- Header -->
+    <div class="pro-form-header">
+        <h2>Official Submission Portal</h2>
+    </div>
+
+    <!-- The Form -->
+    <div class="google-form-container">
+        <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdod_OWxDkdpCRO_WbxnvPdK9bNvg5p-jsrDNzwfrMAxi0_sw/viewform?embedded=true" 
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0">
+            Loading submission form…
+        </iframe>
+    </div>
+
+    <!-- Professional Terms and Conditions Notice -->
+    <div class="pro-form-footer">
+        <div class="le
+         gal-terms">
+            <strong>Data Governance & Compliance:</strong><br>
+            By clicking "Submit" within the form above, you certify that all information provided is accurate and current. This data is collected for professional use and is subject to our <a href="/privacy-policy">Privacy Policy</a>. 
+        </div>
+        <div class="legal-terms">
+            <strong>Terms of Use:</strong><br>
+            Submission of this form does not guarantee acceptance into programs or services. We employ industry-standard encryption to protect your data during transit via Google Cloud infrastructure. You agree not to submit sensitive financial data (e.g., credit card numbers) through this form.
+        </div>
+        <div style="text-align: center; font-size: 11px; margin-top: 20px; color: #bdc3c7;">
+            &copy; 2024 Your Company Name. All Rights Reserved.
+        </div>
+    </div>
+</div>
+<!-- END PROFESSIONAL FORM SECTION -->
